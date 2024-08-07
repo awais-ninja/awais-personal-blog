@@ -1,7 +1,7 @@
 import ListCard from "./components/card/ListCard";
 import wisp from "./utils/wisp";
 
-const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const { posts } = await wisp.getPosts({ limit: "all" });
