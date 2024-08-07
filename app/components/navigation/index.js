@@ -11,7 +11,7 @@ const data = [
 
 const Navigation = () => {
   return (
-    <div className="bg-gradient-to-b from-rose-800 to-rose-900 text-white">
+    <div className="bg-gradient-to-b from-primary-800 to-primary-900 text-white">
       <div className="flex flex-col px-4 gap-y-4 py-3">
         <div className="flex items-center">
           <Logo />
