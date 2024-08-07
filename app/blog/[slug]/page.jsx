@@ -1,6 +1,8 @@
 import wisp from "@/app/utils/wisp";
 import React from "react";
 
+const dynamic = "force-dynamic";
+
 const page = async ({ params }) => {
   const { post: postData } = await wisp.getPost(params.slug);
 
