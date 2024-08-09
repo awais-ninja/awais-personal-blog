@@ -21,6 +21,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleTagManager gtmId="G-RS68JLD91M" />
+      <meta
+        name="google-site-verification"
+        content="rHG3ffiYedqUvhua8lzCeVT3sKXwB9EWqsicdw9ZsWM"
+      />
       <body className={roboto.className}>
         <Navigation />
         {children}
