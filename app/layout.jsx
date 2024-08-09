@@ -1,3 +1,5 @@
+import { GoogleTagManager } from "@next/third-parties/google";
+
 import { Roboto } from "next/font/google";
 import "./globals.css";
 
@@ -18,6 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="G-RS68JLD91M" />
       <body className={roboto.className}>
         <Navigation />
         {children}
